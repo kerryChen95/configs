@@ -1,0 +1,12 @@
+[
+  { "keys": ["ctrl+shift+alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+  { "keys": ["ctrl+shift+alt+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+  { "keys": ["ctrl+shift+alt+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["ctrl+shift+alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+  
+  { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"by": "lines", "amount": 5} },
+  { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"by": "lines", "amount": -5} },
+
+  { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} }
+]
