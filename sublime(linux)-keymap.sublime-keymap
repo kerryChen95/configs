@@ -7,6 +7,6 @@
   { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"by": "lines", "amount": 5} },
   { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"by": "lines", "amount": -5} },
 
-  { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
-  { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} }
+  { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} }
 ]
