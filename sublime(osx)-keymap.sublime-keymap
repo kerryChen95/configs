@@ -5,5 +5,8 @@
   { "keys": ["super+shift+ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true} },
 
   { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"by": "lines", "amount": 5} },
-  { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"by": "lines", "amount": -5} }
+  { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"by": "lines", "amount": -5} },
+
+  { "keys": ["ctrl+shift+["], "command": "fold" },
+  { "keys": ["ctrl+shift+]"], "command": "unfold" }
 ]
