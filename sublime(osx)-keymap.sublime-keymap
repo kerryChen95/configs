@@ -1,0 +1,9 @@
+[
+  { "keys": ["super+shift+ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+  { "keys": ["super+shift+ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+  { "keys": ["super+shift+ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["super+shift+ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+
+  { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"by": "lines", "amount": 5} },
+  { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"by": "lines", "amount": -5} }
+]
