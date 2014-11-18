@@ -6,8 +6,8 @@
   { "keys": ["super+shift+ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true} },
 
   // 滚动屏幕
-  { "keys": ["super+up"], "command": "scroll_lines", "args": {"by": "lines", "amount": 5} },
-  { "keys": ["super+down"], "command": "scroll_lines", "args": {"by": "lines", "amount": -5} },
+  { "keys": ["ctrl+super+up"], "command": "scroll_lines", "args": {"by": "lines", "amount": 5} },
+  { "keys": ["ctrl+super+down"], "command": "scroll_lines", "args": {"by": "lines", "amount": -5} },
 
   // 光标移动
   { "keys": ["super+m"], "command": "move_to", "args": {"to": "brackets"} },
@@ -58,17 +58,17 @@
       { "key": "setting.is_widget", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["super+c"], "command": "toggle_case_sensitive", "context":
+  { "keys": ["super+shift+c"], "command": "toggle_case_sensitive", "context":
     [
       { "key": "setting.is_widget", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["super+r"], "command": "toggle_regex", "context":
+  { "keys": ["super+shift+r"], "command": "toggle_regex", "context":
     [
       { "key": "setting.is_widget", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["super+w"], "command": "toggle_whole_word", "context":
+  { "keys": ["super+shift+w"], "command": "toggle_whole_word", "context":
     [
       { "key": "setting.is_widget", "operator": "equal", "operand": true }
     ]
