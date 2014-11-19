@@ -73,12 +73,19 @@
       { "key": "setting.is_widget", "operator": "equal", "operand": true }
     ]
   },
+  { "keys": ["ctrl+super+enter"], "command": "replace_all", "args": {"close_panel": true},
+     "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+  },
 
   // 菜单
   { "keys": ["alt+down"], "command": "context_menu" },
 
   // edit
   { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+  // comment
+  { "keys": ["super+shift+forward_slash"], "command": "toggle_comment", "args": { "block": true } },
+  // save file
+  { "keys": ["super+ctrl+s"], "command": "save_all" },
 
   // open file
   { "keys": ["super+shift+,"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
