@@ -73,6 +73,12 @@
       { "key": "setting.is_widget", "operator": "equal", "operand": true }
     ]
   },
+  // 避免误按而关闭文件
+  { "keys": ["super+w"], "command": "toggle_whole_word", "context":
+    [
+      { "key": "setting.is_widget", "operator": "equal", "operand": true }
+    ]
+  },
   { "keys": ["ctrl+super+enter"], "command": "replace_all", "args": {"close_panel": true},
      "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
   },
