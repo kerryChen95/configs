@@ -1,4 +1,7 @@
 [
+  // File
+  { "keys": ["super+ctrl+s"], "command": "save_all" },
+
   // 上下左右
   { "keys": ["super+shift+ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false} },
   { "keys": ["super+shift+ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} },
