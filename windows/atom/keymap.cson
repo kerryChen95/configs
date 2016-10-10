@@ -1,0 +1,47 @@
+
+'body':
+  'cmd-h': 'unset!'
+  'cmd-`': 'tree-view:toggle-focus'
+  'cmd-1': 'window:focus-pane-on-left'
+  'cmd-2': 'window:focus-pane-on-right'
+  'cmd-!': 'move-panes:move-left'
+  'cmd-@': 'move-panes:move-right'
+  'ctrl-shift-left': 'editor:select-to-previous-subword-boundary'
+  'ctrl-shift-right': 'editor:select-to-next-subword-boundary'
+  'ctrl-tab': 'pane:show-next-item'
+  "ctrl-tab ^ctrl": 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+  "ctrl-shift-tab ^ctrl": 'unset!'
+
+'atom-workspace':
+  'cmd-ctrl-shift-h': 'core:move-left'
+  'cmd-ctrl-shift-j': 'core:move-down'
+  'cmd-ctrl-shift-k': 'core:move-up'
+  'cmd-ctrl-shift-l': 'core:move-right'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-{': 'editor:fold-current-row'
+  'ctrl-}': 'editor:unfold-current-row'
+
+'atom-text-editor':
+  'ctrl-left': 'editor:move-to-previous-subword-boundary'
+  'ctrl-right': 'editor:move-to-next-subword-boundary'
+  'ctrl-down': 'keyboard-scroll:scrollDown'
+  'ctrl-up': 'keyboard-scroll:scrollUp'
+  'alt-down': 'unset!'
+  'alt-up': 'unset!'
+
+'atom-text-editor:not([mini])':
+  'cmd-e': 'emmet:expand-abbreviation'
+  'cmd-shift-k': 'editor:delete-line'
+
+'.platform-darwin .find-and-replace':
+  'cmd-shift-r': 'find-and-replace:toggle-regex-option'
+  'cmd-shift-c': 'find-and-replace:toggle-case-option'
+  'cmd-shift-s': 'find-and-replace:toggle-selection-option'
+  'cmd-shift-w': 'find-and-replace:toggle-whole-word-option'
+
+'.platform-darwin .project-find':
+  'cmd-shift-r': 'project-find:toggle-regex-option'
+  'cmd-shift-c': 'project-find:toggle-case-option'
+  'cmd-shift-w': 'project-find:toggle-whole-word-option'
