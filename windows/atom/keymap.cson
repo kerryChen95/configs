@@ -5,6 +5,10 @@
   'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-1': 'window:focus-pane-on-left'
   'ctrl-2': 'window:focus-pane-on-right'
+  'ctrl-k ctrl-left': 'pane:split-left-and-copy-active-item'
+  'ctrl-k ctrl-right': 'pane:split-right-and-copy-active-item'
+  'ctrl-c ctrl-left': 'window:copy-active-item-to-pane-on-left'
+  'ctrl-c ctrl-right': 'window:copy-active-item-to-pane-on-right'
 
 'atom-workspace':
   'ctrl-shift-alt-h': 'core:move-left'
