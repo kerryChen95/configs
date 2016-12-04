@@ -7,8 +7,6 @@
   'ctrl-2': 'window:focus-pane-on-right'
   'ctrl-k ctrl-left': 'pane:split-left-and-copy-active-item'
   'ctrl-k ctrl-right': 'pane:split-right-and-copy-active-item'
-  'ctrl-c ctrl-left': 'window:copy-active-item-to-pane-on-left'
-  'ctrl-c ctrl-right': 'window:copy-active-item-to-pane-on-right'
 
 'atom-workspace':
   'ctrl-shift-alt-h': 'core:move-left'
@@ -23,8 +21,6 @@
   'ctrl-down': 'unset!'
 
 'atom-text-editor':
-  'ctrl-left': 'editor:move-to-previous-subword-boundary'
-  'ctrl-right': 'editor:move-to-next-subword-boundary'
   'alt-f': 'unset!'
   'alt-h': 'unset!'
 
