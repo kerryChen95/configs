@@ -51,10 +51,8 @@
   'ctrl-}': 'editor:unfold-current-row'
 
 'atom-text-editor':
-  'ctrl-left': 'editor:move-to-first-character-of-line'
-  'ctrl-right': 'editor:move-to-end-of-screen-line'
-  'cmd-left': 'editor:move-to-previous-subword-boundary'
-  'cmd-right': 'editor:move-to-next-subword-boundary'
+  'ctrl-left': 'editor:move-to-previous-subword-boundary'
+  'ctrl-right': 'editor:move-to-next-subword-boundary'
   'ctrl-down': 'keyboard-scroll:scrollDown'
   'ctrl-up': 'keyboard-scroll:scrollUp'
   'alt-down': 'unset!'
